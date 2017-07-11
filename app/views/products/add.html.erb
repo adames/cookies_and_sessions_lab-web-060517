@@ -1,0 +1,5 @@
+<%= form_tag products_add_path, method: 'post' do %>
+  <%= label_tag "Item Name" %>
+  <%= text_field_tag name="product" %>
+  <%= submit_tag value="add to cart" %>
+<% end %>
